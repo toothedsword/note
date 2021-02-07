@@ -1,0 +1,93 @@
+#-> install perl
+  note: 5.28 can not be installed successfully. So 5.26 are installed.
+
+  cmd to install perl
+     wget https://www.cpan.org/src/5.0/perl-5.28.1.tar.gz
+     tar -xzf perl-5.28.1.tar.gz
+     cd perl-5.28.1
+     # ./Configure -des -Dprefix=$HOME/localperl
+     should use:
+     ./Configure -de # that means for all the users
+     make
+     make test
+     make install
+
+#-> read win data from linux
+  https://blog.csdn.net/niying/article/details/13770939
+
+
+#-> ads sever
+  IP: 10.24.237.32
+  user: ads
+  pwd: htht@ads
+
+#-> install matlab 2018a
+  https://blog.csdn.net/m0_37775034/article/details/80876362
+
+#-> huawei
+  http://www.huaweicloud.com/product/modelarts.com
+
+#-> ssh without password (if want to ssh B from A)
+  # 2 steps
+  #=> in A's ~/.ssh/, run: ssh-keygen -t rsa
+  #=> copy the centent in ~/.ssh/known_hosts
+
+#-> install matlab
+  https://blog.csdn.net/m0_37775034/article/details/80876362
+  #=> tar
+  cd ~
+  sudo mkdir Crack
+  cd ~
+  tar -xvf Matlab2018aLinux64Crack.tar.gz -C Crack
+  cd /mnt
+  sudo mkdir iso
+  cd ~
+  sudo mount -t auto -o loop R2018a_glnxa64_dvd1.iso /mnt/iso
+
+#-> change the bottom and top panel
+  http://blog.chinaunix.net/uid-20620288-id-5750914.html
+  1、备份文件夹
+  cp  window-list@gnome-shell-extensions.gcampax.github.com bak_window-list@gnome-shell-extensions.gcampax.github.com
+  2、删除文件夹
+  rm /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
+  3. shrink the bottom panel
+  /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com/classic.css
+  4. shrink the top panel
+  /usr/share/gnome-shell/theme/gnome-classic.css
+
+#-> shrink the title width
+  Create a file ~/.config/gtk-3.0/gtk.css containng the following CSS
+
+#-> mount ISO
+  sudo mount -t auto -o loop R2018a_glnxa64_dvd2.iso /mnt/iso
+
+#-> some information for CPAN
+  cpan Bundle::CPAN
+
+#-> can not input Chinese in CentOS WPS, just added in head of /usr/bin/wps
+  export XMODIFIERS="@im=ibus"
+  export QT_IM_MODULE="ibus"
+
+#-> every day's work
+  #=> 2019-4-20 Sat:
+    #^> plan:
+      1) test the program of TC forecast
+      2) data fusion of cloud top wind
+      3) tool box of fortran HDF and NC
+      4) apply driver lisence
+    #^> How is plan finished:
+     "1)"
+     "2)"
+     "3)"
+     "4)"
+  #=> 2019-4-19 Fri: 
+    #^> plan: 
+      1) finish the PPT for the wind monitoring, position and instensity esitmation of TC system
+      2) finish the wind program for ERA data
+      3) finish the position monitoring validation
+      4) prepare the matiral for the driver lisence
+    #^> How is plan finished:
+     "1) finished the PPT for TC system, some figures needed to be added" 
+     "2)" 
+     "3)"
+     "4)" 
