@@ -34,4 +34,4 @@ system("cp ~/'$ifig' $ofig");
 # system("echo 'viewnior $ofig' > ~/1.txt");
 # system("xclip -o -sel clip ~/1.txt");
 # system("echo test | xclip -sel clip");
-print("iviewnior $ofig");
+print("viewnior $ofig");
