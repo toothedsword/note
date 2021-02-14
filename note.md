@@ -99,6 +99,7 @@ https://blog.csdn.net/Kardiyal/article/details/85383231
 ./configure --enable-pythoninterp=yes --with-python-config-dir=/lib64/python2.7/config/ --with-features=huge --enable-multibyte
 
 # booking
+tmp
 订票人：Lu,Tingting（卢婷婷）
 护照号：EB3433541
 护照签发日：2017年10月31日
