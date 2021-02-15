@@ -6804,4 +6804,7 @@ ADS：
 wps ~/doc/paper/合肥上空中层大气密度和温度的激光雷达探测.pdf
 
 # emacs
-从 Emacs 22 开始，如果 ~/.emacs 不存在，Emacs 会尝试 ~/.emacs.d/init.el 和 ~/.emacs.d/init.elc 。还可以将 shell 初始化文件 .emacs_SHELL 放在 ~/.emacs.d 下。
+ 从 Emacs 22 开始，如果 ~/.emacs 不存在，Emacs 会尝试 ~/.emacs.d/init.el 和 ~/.emacs.d/init.elc 。还可以将 shell 初始化文件 .emacs_SHELL 放在 ~/.emacs.d 下。
+
+# test
+
