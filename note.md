@@ -989,6 +989,7 @@ export QT_IM_MODULE="ibus"
 
     
 # unicode
+fig1[](viewnior /home/leon/doc/note/fig/2021-02-14-20-01-09.png)
 🦂 🏹  🦀⏾ 🌙 🏺 💙⛏  ⚒  🛠 ☤ 🕏 🌷 🛑 💒🔑 🚧 ⚒ 🚫🏥 h ⛩  ⛪🏰 🏭⚙ 🏔 🏖 🚩🚢🏦⛽ ☕ 5 🍵 t⌚ 🌂🔆⏰⬽3 🏣
 🎶🎵 ⚓⚖  🔑 ⛪ ⛺ 🦂🎲
 🪐🦯 🦎 🦋 🦢 🪂 🦥🦩 🥆🛸🛫 🚁 🚀 📎📅📀💬💎🐜 🐠🔭🌈🍇🎢🐃🐎🐦🐧🐦 🐝🐞
@@ -6049,7 +6050,7 @@ root 密码： htht
 100~145 4~50
 
 # convert png to gif
-   convert -delay 100 *.png out.gif
+   convert -delay 100 *.png out.gif  #  *
 
 # vim 1.Alternate
 
@@ -6628,8 +6629,6 @@ Ultisnips是一个代码片段引擎。当你按下tab键时，它会检查最�
 82.Writeable-search
 
 Writeable-search类似于CtrlSF（见上文）。它让你可以快速查找结果并立即在结果窗口中编辑它们。当你运行:WritableSearch pattern命令时，它将在当前目录中的所有文件中搜索这个pattern，并打开一个包含结果的新选项卡。然后，你可以编辑结果，当你在相同的结果窗口中执行:w操作时，它会更改更新文件。如果你已经在quickfix窗口中有一个要修复内容的列表，那么你可以通过:WritableSearchFromQuickfix命令将它们转移到这个插件中进行编辑。
-# }}} Fold description #
-
 # zhejiang
 台风数据库建设会议纪要
 参会人员：
@@ -6659,13 +6658,7 @@ Writeable-search类似于CtrlSF（见上文）。它让你可以快速查找结�
 
 
 
-# lipeng
-56, 57
-
-
-
-# 
-登陆气象局服务器步骤：
+# 登陆气象局服务器步骤：
 (1) 登陆公司内部ads服务器
 (2) 登陆hp：
    ssh localhost -p 11111
@@ -6810,3 +6803,5 @@ ADS：
 下面的文章较为清晰的论述了激光雷达测温的基本原理
 wps ~/doc/paper/合肥上空中层大气密度和温度的激光雷达探测.pdf
 
+# emacs
+从 Emacs 22 开始，如果 ~/.emacs 不存在，Emacs 会尝试 ~/.emacs.d/init.el 和 ~/.emacs.d/init.elc 。还可以将 shell 初始化文件 .emacs_SHELL 放在 ~/.emacs.d 下。
